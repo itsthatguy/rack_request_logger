@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+# config.ru
+require 'rack_request_logger'
+use RackRequestLogger::Logger, Rails.logger
+```
 
 ## Development
 
@@ -32,10 +36,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rack_request_logger.
+Bug reports and pull requests are welcome on GitHub at https://github.com/itsthatguy/rack_request_logger.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
