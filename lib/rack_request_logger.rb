@@ -72,7 +72,7 @@ module RackRequestLogger
     end
 
     def line_to_json(line)
-      JSON.parse(line) rescue line
+      JSON.stringify(line) rescue line
     end
   end
 end
